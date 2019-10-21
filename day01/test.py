@@ -31,3 +31,5 @@ print(type(d))
 for i in s:
     print(i)
 
+if True:
+    print("main")
