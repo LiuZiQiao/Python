@@ -41,7 +41,7 @@ def login(request):
     # request这是前端请求发来的请求，携带的所有数据，django给我们做了一些列的处理，封装成一个对象传过来
     # 其实挺简单，学会用它给你的一些方法就好了，其实你自己也想到它是怎样处理的。
     if request.method == 'GET':
-        return render(request, 'login.html')
+        return render(request, 'account/login.html')
     if request.method == 'POST':
         name = request.POST.get('name')
         pwd = request.POST.get('pwd')

@@ -19,9 +19,10 @@ from dianying import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index', views.index),
-    path('login', views.login),
+    path('account/login', views.login),
     path('register', views.register),
     path('person', views.person),
     # path('search',views.search),
+    # path('')
     # path('category', views.category)
 ]
